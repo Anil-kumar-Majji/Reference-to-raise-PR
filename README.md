@@ -9,7 +9,7 @@ In following, I documented about the raising PR and methods to follow while doin
 ##### 4. Later use commands to add the files in stage
     - <git add .>                         //If want to add high number of files to stage in git
     - <git add "File relative path">      //If want to add one file
-#### 5. If wee want to unstage a particular file
+#### 5. If we want to unstage a particular file
     - <git restore --staged File-Path>
 ##### 6. Do commit  with a respective message
     - <git commit -m "Message">
