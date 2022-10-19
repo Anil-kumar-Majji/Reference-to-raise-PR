@@ -5,6 +5,9 @@ In following, I documented about the raising PR and methods to follow while doin
     - < git checkout -b "New branchName">
 ##### 2. Reset the new branch with the code from upstream/develop
      - <git reset --hard upstream/(Branch-Name)>
+##### To update the existing code with upstream latest code do as follow
+     -<git fetch upstream>
+     -<git pull upstream develop>
 ##### 3. Now do the modifications in file whereever required
 ##### 4. Later use commands to add the files in stage
     - <git add .>                         //If want to add high number of files to stage in git
